@@ -4,7 +4,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 const Sidebar2 = () => {
   return (
     <> 
-    <div className='grid grid-col-1 p-5 bg-gray-50 shadow-xl h-100% w-90'>
+    <div className='grid grid-col-1 p-5 bg-white shadow-sm h-100% w-90'>
    <div className='flex flex-row'>
      <img src={pic1} className='w-16 h-16 rounded-full  border-1 border-b-green-400  '></img>
      <div className='p-4'>

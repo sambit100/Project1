@@ -3,7 +3,8 @@ import "./App.css";
 import Sidebar from "./Components/Sidebar";
 import Sidebar2 from "./Components/Sidebar2";
 import Maincontent from "./Components/Maincontent";
-
+import Leftbar from "./Components/Rightbar";
+import Rightbar from "./Components/Rightbar";
 // // import pic1 from '../public/images/pic3.jpg'
 // import SearchIcon from "@mui/icons-material/Search";
 // import PersonIcon from "@mui/icons-material/Person";
@@ -22,7 +23,7 @@ function App() {
         </div>
    
     <div><Maincontent/></div>
-    <div>homepage 3</div>
+    <div><Rightbar/></div>
    
     </div>
     

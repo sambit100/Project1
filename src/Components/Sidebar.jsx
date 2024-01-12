@@ -14,7 +14,7 @@ const Sidebar = () => {
     const [open,Setopen]=useState(true);
   return (
     <>
-   <div className={` ${!open ?"w-32":"w-10"} h-100% duration-300 shadow-xl border-2 bg-white-100 relative`}>
+   <div className={` ${!open ?"w-38":"w-10"} h-100% duration-300 shadow-xl border-2 bg-white-100 relative`}>
     <button className={`absolute cursor-pointer rouned -right-4 top-9 w-7 border-2 rounded-full duration-300 border-black ${!open && "rotate-180"}`} 
      onClick={()=>{Setopen(!open)}}
     ><NavigateNextIcon/> </button>
